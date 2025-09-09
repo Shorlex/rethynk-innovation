@@ -6,7 +6,7 @@ import {motion} from "framer-motion"
 const comorant = Cormorant_Garamond({
   weight: ["400", "500", "600", "700"],
   style: ["normal", "italic"],
-  subsets: ["latin, 'italics"],
+  subsets: ["latin"],
 });
 
 const partners = [
@@ -23,7 +23,7 @@ const Partners = () => {
     <section className="w-full xl:p-24 py-24 px-5 ">
       <div className="lg:w-3/4 w-full">
         <h2
-          className={`text-4xl lg:text-5xl xl:text-6xl font-thin ${comorant.className}`}
+          className={`text-4xl lg:text-5xl xl:text-6xl font-thin  ${comorant.className}`}
         >
           Strategic Partners in Digital Transformation
         </h2>

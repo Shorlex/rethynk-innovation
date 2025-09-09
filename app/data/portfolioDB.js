@@ -109,7 +109,7 @@ export const our_work = [
     name: "Lumenave",
     slug: "lumenave",
     tag: "From complex clutter to clarity — a professional digital identity for a global cybersecurity leader.",
-    image: "/images/portfolio/LUMENAVE_International.png",
+    image: "/images/portfolio/lumenave/LUMENAVE_International.png",
     bgVideo: "/images/portfolio/lumenave/hero-video.webm",
     middle: true,
     delay: 1.2,
@@ -195,7 +195,6 @@ export const our_work = [
     clientName: "Executive Director",
     clientRole: "Lumenave International Limited",
   },
-
   // Zahl
   {
     id: 3,
@@ -385,7 +384,7 @@ export const our_work = [
     name: "Echoes of Africa",
     slug: "echoes-of-africa",
     tag: "Preserving the stories of Africa’s legends through a digital platform.",
-    image: "/images/portfolio/Echoes-of-Africa.png",
+    image: "/images/portfolio/echoes-of-africa/Echoes-of-Africa.png",
     bgVideo: "/images/portfolio/echoes-of-africa/hero-video.webm",
     middle: true,
     delay: 3,
@@ -476,7 +475,7 @@ export const our_work = [
     name: "Home Hive",
     slug: "home-hive",
     tag: "Bringing dream homes closer with a modern, user-friendly digital experience.",
-    image: "/images/portfolio/HomeHive.png",
+    image: "/images/portfolio/home-hive/HomeHive.png",
     bgVideo: "/images/portfolio/home-hive/hero-video.webm",
     middle: false,
     delay: 3.6,

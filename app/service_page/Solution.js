@@ -14,7 +14,7 @@ import Process from "../component/Process";
 const comorant = Cormorant_Garamond({
   weight: ["400", "500", "600", "700"],
   style: ["normal", "italic"],
-  subsets: ["latin, 'italics"],
+  subsets: ["latin"],
 });
 
 export default function Solution({ service }) {

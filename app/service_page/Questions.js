@@ -6,7 +6,7 @@ import { FaQuestion } from "react-icons/fa6";
 const comorant = Cormorant_Garamond({
   weight: ["400", "500", "600", "700"],
   style: ["normal", "italic"],
-  subsets: ["latin, 'italics"],
+  subsets: ["latin"],
 });
 
 const Questions = ({ service }) => {

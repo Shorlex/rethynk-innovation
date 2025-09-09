@@ -1,7 +1,6 @@
 "use client";
 import { Cormorant_Garamond } from "next/font/google";
 import { motion, useAnimation } from "framer-motion";
-import { useEffect } from "react";
 
 const comorant = Cormorant_Garamond({
   weight: ["400", "500", "600", "700"],

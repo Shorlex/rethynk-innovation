@@ -29,9 +29,9 @@ export async function GET(req, { params }) {
       >
         {/* Logo */}
         <img
-          src="https://www.rethynkinnovation.com/images/logo_light.png"
-          width="120"
-          height="120"
+          src="https://www.rethynkinnovation.com/images/logo_dark.png"
+          width="200"
+          height="150"
           alt="ReThynk Logo"
           style={{ marginBottom: 30 }}
         />

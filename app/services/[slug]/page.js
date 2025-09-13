@@ -49,7 +49,7 @@ export async function generateMetadata({ params }) {
       siteName: "ReThynk Innovation",
       images: [
         {
-          url: service.image || "/default-og.png", // ✅ fallback if no custom OG image
+          url: service.seo.ogImage || "/default-og.png", // ✅ fallback if no custom OG image
           width: 1200,
           height: 630,
           alt: service.title,
@@ -62,7 +62,7 @@ export async function generateMetadata({ params }) {
       card: "summary_large_image",
       title: service.seo.title,
       description: service.seo.description,
-      images: [service.image || "/default-og.png"],
+      images: [service.seo.ogImage || "/default-og.png"],
     },
   };
 }

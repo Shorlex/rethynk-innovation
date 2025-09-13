@@ -13,6 +13,7 @@ export const our_services = [
       title: "AI & Machine Learning Automation in Nigeria | ReThynk Innovation",
       description:
         "Automate workflows, deploy AI chatbots, forecast sales, and digitize documents with AI/ML solutions tailored for Nigerian businesses.",
+      ogImage: "https://rethynkinnovation.com/api/og/business-automation", // 👈 dynamic OG URL
     },
     // Service Main Page Contents
     whyTitle: "Why Business Automation Matters",
@@ -318,6 +319,7 @@ export const our_services = [
         "Digital Experience Solutions in Nigeria | Websites, CRM & Portals",
       description:
         "ReThynk Innovation builds user-friendly websites, booking systems, CRMs, and digital portals to create seamless customer and employee experiences.",
+      ogImage: "https://rethynkinnovation.com/api/og/digital-experience", // 👈 dynamic OG URL
     },
     // Service Main Page Contents
     whyTitle: "Why Digital Experience Matters",
@@ -623,6 +625,7 @@ export const our_services = [
       title: "Cloud Migration & Web3 Solutions in Nigeria | ReThynk Innovation",
       description:
         "Move to the cloud, adopt Web3, and secure your business with cybersecurity and hybrid cloud solutions for Nigerian startups and enterprises.",
+      ogImage: "https://rethynkinnovation.com/api/og/tech-modernization", // 👈 dynamic OG URL
     },
     // Service Main Page Contents
     whyTitle: "Why Infrastructure Matters",
@@ -928,6 +931,7 @@ export const our_services = [
         "Data Analytics & Business Intelligence in Nigeria | ReThynk Innovation",
       description:
         "Turn data into decisions with BI dashboards, KPI monitoring, predictive modeling, and blockchain-based data verification for Nigerian businesses.",
+      ogImage: "https://rethynkinnovation.com/api/og/data-analysis", // 👈 dynamic OG URL
     },
     // Service Main Page Contents
     whyTitle: "Drowning in Data, Starving for Insight",

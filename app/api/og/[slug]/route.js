@@ -27,6 +27,14 @@ export async function GET(req, { params }) {
           fontWeight: "bold",
         }}
       >
+        {/* Logo */}
+        <img
+          src="https://www.rethynkinnovation.com/images/logo_light.png"
+          width="120"
+          height="120"
+          alt="ReThynk Logo"
+          style={{ marginBottom: 30 }}
+        />
         <p>{service.title}</p>
         <p style={{ fontSize: 28, marginTop: 20 }}>rethynkinnovation.com</p>
       </div>

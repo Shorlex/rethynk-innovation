@@ -32,6 +32,19 @@ export const metadata = {
   title: "ReThynk Innovation - Digital Transformation Agency in Nigeria",
   description:
     "ReThynk Innovation helps Nigerian SMEs transform manual business processes into digital workflows using AI, Cloud, Web3, and Data solutions.",
+  openGraph: {
+    images: [
+      {
+        url: "https://rethynkinnovation.com/api/og/home",
+        width: 1200,
+        height: 630,
+        alt: "ReThynk Innovation Landing Page",
+      },
+    ],
+  },
+  twitter: {
+    images: ["https://rethynkinnovation.com/api/og/home"],
+  },
 };
 
 export default function RootLayout({ children }) {

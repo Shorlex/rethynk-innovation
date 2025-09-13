@@ -30,12 +30,13 @@ export async function GET(req, { params }) {
         {/* Logo */}
         <img
           src="https://www.rethynkinnovation.com/images/logo_dark.png"
-          width="200"
+          width="250"
           height="150"
           alt="ReThynk Logo"
           style={{ marginBottom: 30 }}
         />
-        <p>{service.title}</p>
+              <p>{service.tag}</p>
+              <p style={{fontStyle: "italic", fontSize: 15, color: "lightgray"}}>{service.title}</p>
         <p style={{ fontSize: 28, marginTop: 20 }}>rethynkinnovation.com</p>
       </div>
     ),

@@ -36,12 +36,7 @@ export async function GET(req, { params }) {
           style={{ marginBottom: 30 }}
         />
         <p>
-          {service.tag}<br></br>
-          <span
-            style={{ fontStyle: "italic", fontSize: 15, color: "lightgray" }}
-          >
-            {service.title}
-          </span>
+          {service.tag}
         </p>
 
         <p style={{ fontSize: 28, marginTop: 20 }}>rethynkinnovation.com</p>

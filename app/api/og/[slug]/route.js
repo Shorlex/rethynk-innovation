@@ -20,7 +20,7 @@ export async function GET() {
         }}
       >
         <img
-          src="https://www.rethynkinnovation.com/_next/image?url=%2Fimages%2Flogo_light.png&w=384&q=75"
+          src="https://www.rethynkinnovation.com/images/logo_light.png"
           width="120"
           height="120"
           style={{ marginBottom: "30px" }}

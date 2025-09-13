@@ -17,7 +17,7 @@ export async function GET(req, { params }) {
         style={{
           width: "1200px",
           height: "630px",
-          background: "black",
+          background: "linear-gradient(135deg, #0f172a, #1e293b)",
           display: "flex",
           flexDirection: "column",
           justifyContent: "center",

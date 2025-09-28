@@ -49,16 +49,16 @@ export default function Solution({ service }) {
       }}
     >
       {/* Headings */}
-      <div className="relative pl-20 text-sm uppercase mb-6 tracking-[10px] font-thin">
-        <span className="absolute left-0 top-1/2 transform -translate-y-1/2 w-16 h-px bg-gray-500"></span>
+      <div className="relative lg:pl-20 pl-10 text-sm uppercase mb-6 lg:tracking-[10px] tracking-[5px] font-thin">
+        <span className="absolute left-0 top-1/2 transform -translate-y-1/2 lg:w-16 w-8 h-px bg-gray-500"></span>
         {service.tag}
       </div>
       <h3
-        className={`${comorant.className} text-5xl lg:text-6xl xl:text-8xl uppercase italic mb-5 pl-20`}
+        className={`${comorant.className} text-5xl lg:text-6xl xl:text-8xl uppercase italic mb-5 lg:pl-20 pl-10`}
       >
         {service.solutionTitle}
       </h3>
-      <p className=" max-w-4xl pl-20 mb-24">{service.solutionDesc}</p>
+      <p className=" max-w-4xl lg:pl-20 pl-10 mb-24">{service.solutionDesc}</p>
 
       {/* Scrollable Section */}
       <div ref={indicatorRef} className=" pl-10 relative min-h-screen">
@@ -109,7 +109,7 @@ function ScrollCard({ id, title, body, index, useCases }) {
       animate={controls}
       initial={{ opacity: 0, y: 100 }}
       transition={{ duration: 0.6, delay: index * 0.2 }}
-      className="relative mb-32 pl-20"
+      className="relative mb-32 pl-2"
     >
       <h5 className="absolute -left-10 top-6 text-sm">{id}</h5>
       <h3 className={`${comorant.className} text-3xl mb-5`}>{title}</h3>
@@ -119,7 +119,7 @@ function ScrollCard({ id, title, body, index, useCases }) {
         initial={{ opacity: 0, y: 50 }}
         animate={inView ? { opacity: 1, y: 0 } : {}}
         transition={{ duration: 0.5, delay: 0.2 }}
-        className="grid grid-cols-1 md:grid-cols-2 gap-4 pl-4 list-disc"
+        className="grid grid-cols-1 md:grid-cols-2 gap-4 pl-2 list-disc"
       >
         <p>{body}</p>
         <div className="shadow-gray-600 shadow rounded-2xl p-2">

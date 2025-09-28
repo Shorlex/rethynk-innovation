@@ -11,7 +11,7 @@ const comorant = Cormorant_Garamond({
 
 const Questions = ({ service }) => {
   return (
-    <section className="w-full xl:p-24 px-5">
+    <section className="w-full xl:px-24 px-5 py-24">
       <div className="w-full flex items-center">
         <h2
           className={`text-4xl lg:text-5xl xl:text-6xl font-thin italic ${comorant.className}`}
@@ -27,7 +27,7 @@ const Questions = ({ service }) => {
             transition={{ duration: 0.4, ease: "linear", delay: item.id * 0.4 }}
             viewport={{ once: true }}
             key={item.id}
-            className="w-[200px] h-[300px] even:mt-20 border border-gray-300 rounded shadow-xl p-5 relative"
+            className="w-[200px] h-[300px] even:lg:mt-20 border border-gray-300 rounded shadow-xl p-5 relative"
           >
             <h5 className="mt-5 font-bold">{item.question}</h5>
             <h5 className="mt-5">{item.answer}</h5>

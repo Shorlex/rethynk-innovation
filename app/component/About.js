@@ -75,7 +75,7 @@ const About = () => {
           </h2>
         </div>
         <div className="w-full lg:w-1/2 lg:pl-20 flex items-center">
-          <p className="text-lg">
+          <p className="text-lg ">
             At ReThynk, we fuse strategy, innovation, and technology to catalyze
             metamorphosis. From disruptive brand identities to AI-powered
             digital ecosystems, we architect experiences that don’t just
@@ -91,7 +91,7 @@ const About = () => {
             transition={{ duration: 0.6, ease: "linear", delay: item.delay }}
             viewport={{ once: true }}
             key={item.id}
-            className={`lg:w-[300px] w-[200px] p-2 lg:p-5 h-[300px] lg:h-[500px] shadow-xl rounded-xl border-[.5px] border-gray-200 relative
+            className={`lg:w-[300px] w-[400px] p-2 lg:p-5 h-[200px] lg:h-[500px] shadow-xl rounded-xl border-[.5px] border-gray-200 relative
          ${item.even ? "xl:mt-20" : "xl:mt-0"} `}
           >
             <h3 className={`${comorant.className} text-2xl font-bold`}>

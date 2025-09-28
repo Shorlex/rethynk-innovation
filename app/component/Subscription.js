@@ -9,7 +9,7 @@ const comorant = Cormorant_Garamond({
 const Subscription = () => {
   return (
     <section className="w-full flex justify-center py-24">
-      <div className="w-9/10 lg:w-4/5 xl:w-3/5 border-gray-400 border rounded p-15 relative">
+      <div className="w-9/10 lg:w-4/5 xl:w-3/5 border-gray-400 border rounded lg:px-15 px-5 py-15  relative">
         <h2 className={`text-4xl font-thin text-center ${comorant.className}`}>
           Why We're the Design Partner Top Brands Trust
         </h2>
@@ -24,7 +24,7 @@ const Subscription = () => {
             type="email"
             name="email"
             placeholder="Enter your email address..."
-            className="py-3 px-6 border border-gray-400 rounded"
+            className="py-3 px-3 border border-gray-400 rounded"
             required
           />
           <button className="bg-[#000B18] text-white py-3 px-6 cursor-pointer rounded">Subscribe</button>

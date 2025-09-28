@@ -30,13 +30,13 @@ const PortfolioTemplate = ({ portfolio }) => {
           Your browser does not support the video tag.
         </video>
         <div
-          className={`z-10 relative flex justify-start items-end h-full p-10 ${comorant.className}`}
+          className={`z-10 relative flex justify-start items-end h-full py-10 px-5 ${comorant.className}`}
         >
           <div className="text-white uppercase">
             <h1 className="text-6xl  md:text-7xl lg:text-8xl">
               {portfolio.name}
             </h1>
-            <p className="tracking-[10px] text-sm font-thin w-full lg:w-1/2 ml-3">
+            <p className="lg:tracking-[10px] tracking-[5px] text-sm font-thin w-full lg:w-1/2">
               {portfolio.tag}{" "}
             </p>
           </div>

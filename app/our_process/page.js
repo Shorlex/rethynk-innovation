@@ -128,7 +128,7 @@ const ProcessItem = ({ item }) => {
       }
       viewport={{ once: false, margin: "-100px 0px" }}
       transition={{ duration: 0.6, ease: "easeOut" }}
-      className={`w-full md:w-9/10 mx-auto py-10 mt-10 bg-gradient-to-b ${item.bg} to-white flex flex-wrap justify-between gap-10 p-10 rounded-xl shadow-lg`}
+      className={`w-9/10 md:w-9/10 mx-auto py-10 mt-10 bg-gradient-to-b ${item.bg} to-white flex flex-wrap justify-between gap-10 p-10 rounded-xl shadow-lg`}
     >
       <div className="relative">
         <span
@@ -167,11 +167,11 @@ const OurProcess = () => {
         }}
       >
         <div className="bg-gradient-to-t from-white to-transparent w-full h-full absolute top-0 left-0"></div>
-        <div className={`z-10 lg:m-24 m-10 ${comorant.className}`}>
+        <div className={`z-10 lg:m-24 m-5 ${comorant.className}`}>
           <h1 className="text-6xl md:text-7xl lg:text-8xl uppercase">
             Our Process
           </h1>
-          <p className="uppercase tracking-[10px] text-sm text-gray-500 font-thin w-90 ml-3">
+          <p className="uppercase tracking-[5px] lg:tracking-[10px] text-sm text-gray-500 font-thin w-90 ml-3">
             From Legacy Systems to Future-Ready Operations{" "}
           </p>
         </div>

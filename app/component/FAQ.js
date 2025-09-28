@@ -46,11 +46,11 @@ const FAQ = () => {
   ];
 
   return (
-    <section className="px-5 lg:px-24 pt-24">
+    <section className="px-5 lg:px-24 pt-24 w-full">
       <div className="xl:flex xl:gap-10 justify-between">
         <div className="xl:w-1/2 w-full xl:flex xl:flex-col justify-center">
           <h2
-            className={`${comorant.className} text-5xl lg:text-6xl uppercase italic`}
+            className={`${comorant.className} text-[43px] lg:text-6xl uppercase italic`}
           >
             Your Digital Transformation Questions
           </h2>

@@ -18,7 +18,7 @@ const Impacts = ({service}) => {
           {service.impactTitle}
         </h2>
       </div>
-      <div className="flex flex-wrap justify-center gap-3 mt-10 xl:w-2/3 w-full ">
+      <div className="flex flex-wrap justify-center gap-3 mt-10 xl:w-2/3 w-full">
         {service.impactDetails.map((item) => (
           <motion.div
             initial={{ opacity: 0, y: -100 }}
@@ -26,7 +26,7 @@ const Impacts = ({service}) => {
             transition={{ duration: 0.4, ease: "linear", delay: item.id * 0.4 }}
             viewport={{ once: true }}
             key={item.id}
-            className="w-[200px] h-[200px] even:mt-20 border border-gray-300 rounded shadow-xl p-5"
+            className="w-[200px] h-[200px] even:lg:mt-20 border border-gray-300 rounded shadow-xl p-5"
           >
             <h2 className="text-6xl">{ item.icon }</h2>
             <h5 className="mt-5">{ item.body }</h5>

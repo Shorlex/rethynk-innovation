@@ -3,7 +3,7 @@ import { Cormorant_Garamond } from "next/font/google";
 import Problem from "./Problem";
 import Solution from "./Solution";
 import Impacts from "./Impacts";
-import UseCases from "./Questions";
+import Questions from "./Questions";
 
 const comorant = Cormorant_Garamond({
   weight: ["400", "500", "600", "700"],
@@ -28,7 +28,7 @@ const ServiceTemplate = ({ service }) => {
           <h1 className="text-6xl md:text-7xl lg:text-8xl uppercase">
             {service.title}
           </h1>
-          <p className="uppercase tracking-[10px] text-sm text-gray-500 font-thin w-90 ml-3">
+          <p className="uppercase tracking-[5px] lg:tracking-[10px] text-sm text-gray-500 font-thin">
             {service.tag}{" "}
           </p>
         </div>
@@ -40,7 +40,7 @@ const ServiceTemplate = ({ service }) => {
       {/* Real Impact – Results Our Clients See */}
       <Impacts service={service} />
       {/* Use Cases – Tailored to Your Industry */}
-      <UseCases service={service} />
+      <Questions service={service} />
     </section>
   );
 };

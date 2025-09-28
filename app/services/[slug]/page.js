@@ -2,30 +2,6 @@ import ServiceTemplate from "@/app/service_page/ServiceTemplate";
 import { our_services } from "@/app/data/servicesDB";
 import { notFound } from "next/navigation";
 
-// Metadata Contents
-// const services = {
-//   "business-automation": {
-//     title: "AI & Machine Learning Automation in Nigeria | ReThynk Innovation",
-//     description:
-//       "Automate workflows, deploy AI chatbots, forecast sales, and digitize documents with AI/ML solutions tailored for Nigerian businesses.",
-//   },
-//   "digital-experience": {
-//     title: "Digital Experience Solutions in Nigeria | Websites, CRM & Portals",
-//     description:
-//       "ReThynk Innovation builds user-friendly websites, booking systems, CRMs, and digital portals to create seamless customer and employee experiences.",
-//   },
-//   "tech-modernization": {
-//     title: "Cloud Migration & Web3 Solutions in Nigeria | ReThynk Innovation",
-//     description:
-//       "Move to the cloud, adopt Web3, and secure your business with cybersecurity and hybrid cloud solutions for Nigerian startups and enterprises.",
-//   },
-//   "data-analysis": {
-//     title:
-//       "Data Analytics & Business Intelligence in Nigeria | ReThynk Innovation",
-//     description:
-//       "Turn data into decisions with BI dashboards, KPI monitoring, predictive modeling, and blockchain-based data verification for Nigerian businesses.",
-//   },
-// };
 
 // ✅ Generate metadata dynamically
 export async function generateMetadata({ params }) {

@@ -43,7 +43,7 @@ const Partners = () => {
             transition={{ duration: 0.4, ease: "linear", delay: i*0.4 }}
             viewport={{ once: true }}
             key={i}
-            className="w-[200px] h-[200px] even:mt-20 border border-gray-300 rounded shadow-xl flex justify-center items-center"
+            className="w-[200px] h-[200px] even:md:mt-20 border border-gray-300 rounded shadow-xl flex justify-center items-center"
           >
             <Image
               src={item}

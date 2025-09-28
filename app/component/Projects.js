@@ -65,7 +65,7 @@ const Projects = () => {
           key={item.id}
           href={`/portfolio/${item.slug}`}
           className={`w-[400px] h-[300px] ${
-            item.middle ? "mt-20" : "mt-0"
+            item.middle ? "md:mt-20" : "mt-0"
           } hover:text-gray-400 relative group`}
         >
           <motion.div

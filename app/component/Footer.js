@@ -125,7 +125,7 @@ const Footer = () => {
             />
           </div>
         </div>
-        <div className="flex justify-between mt-10">
+        <div className="flex justify-between flex-wrap gap-10 mt-10">
           <div
             className={`mt-10 lg:ml-10 ${comorant.className} lg:text-3xl text-xl`}
           >

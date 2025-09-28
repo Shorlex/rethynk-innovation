@@ -16,7 +16,7 @@ const Problem = ({ service }) => {
       <div className="xl:w-1/2 w-full flex flex-col justify-center ">
         <div>
           <h2
-            className={`${comorant.className} text-6xl md:text-7xl uppercase`}
+            className={`${comorant.className} text-[40px] md:text-7xl uppercase`}
           >
             {service.whyTitle}
           </h2>

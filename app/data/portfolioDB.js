@@ -19,6 +19,7 @@ export const our_work = [
     tag: "Transforming design inspiration into a digital-first client experience.",
     image: "/images/portfolio/SmartInteriors/SmartInteriors.png",
     bgVideo: "/images/portfolio/SmartInteriors/hero-video-2.webm",
+    bgImage: "/images/portfolio/SmartInteriors/mobile-image.png",
     middle: false,
     delay: 0.6,
     //Inner Page for Portfolio

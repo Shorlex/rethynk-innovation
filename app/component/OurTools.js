@@ -11,7 +11,7 @@ const categories = [
       { name: "⚡Zapier AI", icon: "/images/tools/for-ai/zapia-logo.png" },
       {
         name: "🤖Microsoft Copilot",
-        icon: "/images/tools/for-ai/Microsoft-Ai-Copilot.jpg",
+        icon: "/images/tools/for-ai/Microsoft-AI-Copilot.jpg",
       },
       {
         name: "🧠TensorFlow",

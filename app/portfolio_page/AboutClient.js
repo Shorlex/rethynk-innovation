@@ -8,7 +8,7 @@ const AboutClient = ({ font, portfolio }) => {
       >
         About Client
       </h2>
-      <div className="mt-10 pb-24 xl:flex xl:flex-row-reverse gap-5">
+      <div className="mt-10 xl:pb-24 xl:flex xl:flex-row-reverse gap-5">
         <div className="xl:w-1/2 hidden xl:block relative lg:h-[500px]">
           <Image
             src={"/images/portfolio/challenge-image.avif"}

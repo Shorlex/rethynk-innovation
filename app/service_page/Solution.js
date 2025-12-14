@@ -61,7 +61,7 @@ export default function Solution({ service }) {
       <p className=" max-w-4xl lg:pl-20 pl-10 mb-24">{service.solutionDesc}</p>
 
       {/* Scrollable Section */}
-      <div ref={indicatorRef} className=" pl-10 relative min-h-screen">
+      <div ref={indicatorRef} className=" pl-10 relative min-h-auto">
         {/* Sidebar with moving scroll indicator */}
         <div className=" w-16 absolute left-0 top-0 h-full">
           <div className="sticky top-12 h-full flex justify-center">

@@ -59,7 +59,7 @@ import { our_work } from "../data/portfolioDB";
 
 const Projects = () => {
   return (
-    <div className="py-10 w-full min-h-screen flex flex-wrap justify-center gap-10 xl:gap-5">
+    <div className="py-10 w-full min-h-screen 3xl:min-h-auto flex flex-wrap justify-center gap-10 xl:gap-5">
       {our_work.map((item) => (
         <Link
           key={item.id}

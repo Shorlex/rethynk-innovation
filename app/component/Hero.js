@@ -11,7 +11,7 @@ const comorant = Cormorant_Garamond({
 
 const Hero = () => {
   return (
-    <div className={`text-center py-24 relative ${comorant.className}`}>
+    <div className={`text-center py-24 px-24 relative ${comorant.className}`}>
       <div>
         {/* First set of image */}
         <div className="absolute top-100 left-0 2xl:px-30 xl:px-17 xl:flex gap-5 justify-between w-full hidden">

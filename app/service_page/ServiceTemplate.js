@@ -15,7 +15,7 @@ const ServiceTemplate = ({ service }) => {
   // const bg = "/images/landing_page/for-ai.jpg"
 
   return (
-    <section className="w-full min-h-[200vh">
+    <section className="w-full min-h-[200vh] 3xl:min-h-auto">
       {/* Hero Section */}
       <div
         className="w-full h-[80vh] flex justify-start items-end bg-center bg-cover relative mb-24"

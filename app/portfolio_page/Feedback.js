@@ -15,7 +15,7 @@ const Feedback = ({ portfolio }) => {
       whileInView={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.6, ease: "linear", delay: 0.5 }}
       viewport={{ once: true }}
-      className="flex items-center xl:px-24 lg:px-12 px-6 h-screen"
+      className="flex items-center xl:px-24 lg:px-12 px-6 h-screen 3xl:h-[50vh] 3xl:my-24"
     >
       <div>
         <h2

@@ -10,7 +10,7 @@ const comorant = Cormorant_Garamond({
 const processes = [
   {
     id: 1,
-    bg: "from-red-300",
+    bg: "from-blue-100",
     title: "Discovery & Assessment",
     subtitles: "Laying the foundation for transformation",
     delay: 0.1,
@@ -28,7 +28,7 @@ const processes = [
   },
   {
     id: 2,
-    bg: "from-blue-300",
+    bg: "from-blue-200",
     title: "Strategic Roadmapping",
     subtitles: "Your blueprint for digital evolution",
     delay: 0.2,
@@ -46,7 +46,7 @@ const processes = [
   },
   {
     id: 3,
-    bg: "from-purple-300",
+    bg: "from-blue-300",
     title: " Technology Implementation",
     subtitles: "Seamless integration of cutting-edge solutions",
     delay: 0.3,
@@ -65,7 +65,7 @@ const processes = [
   },
   {
     id: 4,
-    bg: "from-amber-300",
+    bg: "from-blue-400",
     title: "Optimization",
     subtitles: "Continuous improvement cycle",
     delay: 0.4,
@@ -83,7 +83,7 @@ const processes = [
   },
   {
     id: 5,
-    bg: "from-cyan-300",
+    bg: "from-blue-500",
     title: "Growth Scaling",
     subtitles: "Future-proof expansion",
     delay: 0.5,

@@ -29,27 +29,109 @@ const geistMono = Geist_Mono({
 
 export const metadata = {
   metadataBase: new URL("https://rethynkinnovation.com"),
-  title: "ReThynk Innovation - Digital Transformation Agency in Nigeria",
+  title: {
+    default: "ReThynk Innovation | Digital Transformation Agency in Nigeria",
+    template: "%s | ReThynk Innovation",
+  },
   description:
-    "ReThynk Innovation helps Nigerian SMEs transform manual business processes into digital workflows using AI, Cloud, Web3, and Data solutions.",
+    "Leading digital transformation agency in Nigeria. We deliver AI automation, web development, cloud migration, and data analytics solutions for businesses.",
+  keywords: [
+    "digital transformation Nigeria",
+    "AI automation Nigeria",
+    "web development Nigeria",
+    "cloud migration Nigeria",
+    "data analytics Nigeria",
+    "business automation",
+    "ReThynk Innovation",
+  ],
+  authors: [{ name: "ReThynk Innovation" }],
+  creator: "ReThynk Innovation",
+  publisher: "ReThynk Innovation",
+  formatDetection: {
+    email: false,
+    address: false,
+    telephone: false,
+  },
   openGraph: {
+    type: "website",
+    locale: "en_NG",
+    url: "https://rethynkinnovation.com",
+    siteName: "ReThynk Innovation",
+    title: "ReThynk Innovation | Digital Transformation Agency in Nigeria",
+    description:
+      "Leading digital transformation agency in Nigeria. We deliver AI automation, web development, cloud migration, and data analytics solutions.",
     images: [
       {
-        url: "https://rethynkinnovation.com/api/og/home",
+        url: "/og-image.png", // Create a 1200x630px image
         width: 1200,
         height: 630,
-        alt: "ReThynk Innovation Landing Page",
+        alt: "ReThynk Innovation",
       },
     ],
   },
   twitter: {
-    images: ["https://rethynkinnovation.com/api/og/home"],
+    card: "summary_large_image",
+    title: "ReThynk Innovation | Digital Transformation Agency",
+    description: "Leading digital transformation agency in Nigeria.",
+    creator: "@rethynkinnovation", // Add your Twitter handle
+    images: ["/og-image.png"],
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
+  verification: {
+    google: "eREU1etzwLwn_5o8MNDlERJR7nnQfPiPAd4T6hOcmog", // Get from Google Search Console
+    // yandex: 'your-yandex-verification-code',
+    // bing: 'your-bing-verification-code',
   },
 };
+
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <head>
+        {/* Organization Schema - Global */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Organization",
+              name: "ReThynk Innovation",
+              url: "https://rethynkinnovation.com",
+              logo: "https://rethynkinnovation.com/logo.webp",
+              description: "Leading digital transformation agency in Nigeria",
+              address: {
+                "@type": "PostalAddress",
+                addressLocality: "Lagos",
+                addressRegion: "Lagos",
+                addressCountry: "NG",
+              },
+              contactPoint: {
+                "@type": "ContactPoint",
+                telephone: "+2349035632364", // Add your phone
+                contactType: "Customer Service",
+                areaServed: "NG",
+                availableLanguage: ["en"],
+              },
+              sameAs: [
+                "https://facebook.com/rethynkinnovation", // Add your social links
+                "https://x.com/thynkinnovation",
+                "https://linkedin.com/company/rethynkinnovation",
+              ],
+            }),
+          }}
+        />
+      </head>
       <body>
         <main className="3xl:w-[1620px] relative my-0 mx-auto">
           <Header />

@@ -38,7 +38,7 @@ const ContactUs = () => {
       </div>
 
       {/* Contact Form */}
-      <div className="bg-[#F8F8F8] w-full min-h-screen px-5 md:px-10 xl:px-24 py-24">
+      <div className="bg-[#F8F8F8] w-full min-h-auto px-5 md:px-10 xl:px-24 py-24">
         <div>
           <hr className="text-gray-400 w-90 mx-auto"></hr>
           <p className="font-thin text-6xl text-center mt-5">Get in Touch</p>

@@ -19,7 +19,7 @@ export default function SolutionVisual({portfolio}) {
   const getNextIndex = () => (currentIndex + 1) % portfolio.images.length;
 
   return (
-    <div className="relative w-full h-[80vh] flex items-center justify-center overflow-hidden">
+    <div className="relative w-full h-auto flex items-center justify-center overflow-hidden">
       {/* Background gradient (like original mousemove effect) */}
       <div className="absolute inset-0 bg-gradient-radial from-neutral-800 to-black" />
 
